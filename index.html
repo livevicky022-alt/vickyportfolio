@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>3D Generalist Portfolio</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#030914;color:#edf9ff;font-family:Arial,system-ui,sans-serif}
+nav{position:sticky;top:0;z-index:5;background:#050d18ee;border-bottom:1px solid #16405a;padding:18px 5%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:900;font-size:22px;letter-spacing:2px}.logo span,h1 span{color:#08c9ff}nav a{color:#c8d9e4;text-decoration:none;margin-left:22px}
+main{width:min(1150px,92%);margin:auto}.hero{min-height:760px;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.hero img{width:100%;max-width:540px;border-radius:28px;border:1px solid #1b789a;box-shadow:0 0 70px #08c9ff22}
+.eyebrow{color:#08c9ff;font-weight:bold;letter-spacing:3px}h1{font-size:clamp(55px,8vw,100px);line-height:1;margin:18px 0;letter-spacing:4px}h2{font-size:28px}p{color:#9eb5c6;line-height:1.7}
+.btn{display:inline-block;padding:13px 20px;border:1px solid #08c9ff;border-radius:9px;color:#fff;text-decoration:none;margin:10px 8px 0 0;font-weight:bold}.primary{background:#08c9ff;color:#03101a}
+section{padding:90px 0}.label{color:#08c9ff;font-weight:bold;letter-spacing:3px;text-transform:uppercase}section h2{font-size:45px;margin:5px 0 35px}
+.projects{display:grid;grid-template-columns:1fr 1fr;gap:25px}.project{background:#091a2b;border:1px solid #173c55;border-radius:18px;overflow:hidden}
+.video{position:relative;background:#000;aspect-ratio:16/9}.video video{width:100%;height:100%;display:block}.video b{position:absolute;top:12px;left:12px;background:#06121dcc;border:1px solid #08c9ff99;border-radius:30px;padding:7px 11px;color:#66e7ff;font-size:12px;letter-spacing:1px}
+.info{padding:22px}.info h3{margin:0;font-size:23px}.skills{display:grid;grid-template-columns:1fr 1fr;gap:12px}.skill{background:#091a2b;border:1px solid #173c55;padding:18px;border-radius:10px;display:flex;justify-content:space-between}
+.contact{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.box{background:#091a2b;border:1px solid #173c55;padding:22px;border-radius:14px}.box a{color:#66e7ff}
+footer{border-top:1px solid #173c55;text-align:center;padding:35px;color:#718b9d}
+@media(max-width:800px){.hero,.projects,.skills,.contact{grid-template-columns:1fr}nav div:last-child{display:none}.hero{padding:60px 0}.hero img{order:-1}section{padding:65px 0}}
+</style>
+</head>
+<body>
+<nav><div class="logo">PORTFOLIO</div><div><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#extra-skills">Extra Skills</a><a href="#contact">Contact</a></div></nav>
+<main>
+<header class="hero">
+<div><div class="eyebrow">3D GENERALIST / ANIMATOR</div><h1>VIKNESH<span>.V</span></h1><h2>Unreal Engine Artist • 3D Animation • Motion Graphics</h2><p>Creative and detail-oriented artist working across 3D animation, scene visualization, sets assembly, asset modeling, environment development and editing.</p><a class="btn primary" href="#projects">VIEW PROJECTS</a><a class="btn" href="#contact">CONTACT</a></div>
+<div><img src="assets/asset_1.png" alt="Viknesh V"></div>
+</header>
+
+<section id="about"><div class="label">Profile</div><h2>Ideas → Models → Animation → Reality</h2><div class="box"><p>3D Generalist, Animator and Unreal Engine Artist with experience in scene visualization, sets assembly, asset modeling, motion graphics, Photoshop environment development and editing.</p></div></section>
+
+<section id="projects"><div class="label">Selected Work</div><h2>Projects 01 — 06</h2><div class="projects">
+
+<article class="project">
+  <div class="video">
+    <video controls playsinline preload="metadata">
+      <source src="assets/asset_2.mp4" type="video/mp4">
+    </video>
+    <b>PROJECT 01</b>
+  </div>
+  <div class="info"><h3>3D Animation Reel</h3><p>3D Animation • Motion Graphics • Visualization</p></div>
+</article>
+
+
+<article class="project">
+  <div class="video">
+    <video controls playsinline preload="metadata">
+      <source src="assets/asset_3.mp4" type="video/mp4">
+    </video>
+    <b>PROJECT 02</b>
+  </div>
+  <div class="info"><h3>Unreal Engine / 3D Visual</h3><p>3D Animation • Motion Graphics • Visualization</p></div>
+</article>
+
+
+<article class="project">
+  <div class="video">
+    <video controls playsinline preload="metadata">
+      <source src="assets/asset_4.mp4" type="video/mp4">
+    </video>
+    <b>PROJECT 03</b>
+  </div>
+  <div class="info"><h3>Motion Graphics Work</h3><p>3D Animation • Motion Graphics • Visualization</p></div>
+</article>
+
+
+<article class="project">
+  <div class="video">
+    <video controls playsinline preload="metadata">
+      <source src="assets/asset_5.mp4" type="video/mp4">
+    </video>
+    <b>PROJECT 04</b>
+  </div>
+  <div class="info"><h3>3D Generalist Work</h3><p>3D Animation • Motion Graphics • Visualization</p></div>
+</article>
+
+<article class="project"><div style="aspect-ratio:16/9;display:grid;place-items:center;background:radial-gradient(circle,#123c55,#030914)"><div style="text-align:center"><div style="font-size:70px;color:#08c9ff;font-weight:900">V</div><strong style="font-size:24px">PROJECT 05</strong></div></div><div class="info"><h3>Ponniyin Selvan — 3D Animation</h3><p>Scene Visualization • Sets Assembly • Asset Modeling • Editing</p></div></article>
+</div></section>
+<article class="project">
+  <div class="video">
+    <video controls playsinline preload="metadata">
+      <source src="assets/asset_6.mp4" type="video/mp4">
+    </video>
+    <b>PROJECT 06</b>
+  </div>
+  <div class="info"><h3>3D Jar with Tablet Animation</h3><p>Realistic Render • 3D Animation • Product Visualization</p></div>
+</article>
+
+<section id="experience"><div class="label">Career</div><h2>Experience</h2><div class="projects">
+<article class="project"><div class="info"><h3>Scene Visualization, Sets Assembly, 3D Animator, Photoshop Environment Developing, Asset Modeler, Editing</h3><p><strong>Ponniyin Selvan</strong><br>For a 3D animated feature film “Ponniyin Selvan”<br><strong>Saneeshwar Animation International Pvt., Ltd., Puducherry</strong><br>Jan 2017 – Present</p></div></article>
+<article class="project"><div class="info"><h3>Motion Graphics, 3D Animation</h3><p><strong>ESales Technologies Pvt., Ltd., Puducherry</strong><br>April 2024 – Present</p></div></article>
+</div></section>
+
+<section id="education"><div class="label">Academic</div><h2>Education</h2><div class="box"><h3>Diploma in 3D Animation Specialization</h3><p><strong>AMAZE College of Animation Technology, Puducherry</strong><br>2016</p></div></section>
+
+<section id="skills"><div class="label">Toolkit</div><h2>Software & Skills</h2><div class="skills">
+<div class="skill"><span>Unreal Engine</span><b>90%</b></div><div class="skill"><span>Blender</span><b>95%</b></div>
+<div class="skill"><span>Premiere Pro</span><b>85%</b></div><div class="skill"><span>After Effects</span><b>80%</b></div>
+<div class="skill"><span>Photoshop</span><b>75%</b></div><div class="skill"><span>Illustrator</span><b>70%</b></div>
+<div class="skill"><span>InDesign</span><b>65%</b></div><div class="skill"><span>Story Telling / Team Player</span><b>✓</b></div>
+</div></section>
+
+<section id="extra-skills"><div class="label">Additional Expertise</div><h2>Extra Skills</h2><div class="skills">
+<div class="skill"><span>Scene Visualization</span><b>✓</b></div><div class="skill"><span>Sets Assembly</span><b>✓</b></div>
+<div class="skill"><span>3D Animator</span><b>✓</b></div><div class="skill"><span>Editor</span><b>✓</b></div>
+<div class="skill"><span>Photoshop</span><b>✓</b></div><div class="skill"><span>Asset Modeler</span><b>✓</b></div>
+<div class="skill"><span>Story Telling</span><b>✓</b></div><div class="skill"><span>Team Player</span><b>✓</b></div>
+</div></section>
+
+<section id="contact"><div class="label">Let's Connect</div><h2>Contact</h2><div class="contact">
+<div class="box"><b>Phone</b><p><a href="tel:+919629369100">+91 9629369100</a></p></div>
+<div class="box"><b>Email</b><p><a href="mailto:saivickythamizh98@gmail.com">saivickythamizh98@gmail.com</a></p></div>
+<div class="box"><b>Location</b><p>Pondicherry, India</p></div>
+</div></section>
+</main>
+<footer>© 2026 VIKNESH.V — 3D Generalist / Animator / Unreal Engine Artist</footer>
+</body>
+</html>
